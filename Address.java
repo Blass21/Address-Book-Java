@@ -18,6 +18,7 @@ public class Address extends JPanel{
 	private int xt=xb+wb+spx, yt=20, wt=180, ht=30;
 	private static final long serialVersionUID = -3017242459715155066L;
 	public Address(){
+		setBackground(Color.lightGray);
 		setBorder(new EmptyBorder(5,5,5,5));
 		setLayout(null);
 		addComponents();
@@ -78,13 +79,23 @@ public class Address extends JPanel{
 		address=tAddress.getText();
 		email=tEmail.getText();
 		phone=0;
+		String p=tPhone.getText();
+		boolean w=true;
 		try{
-			phone=Integer.parseInt(tPhone.getText());
+			phone=Integer.parseInt(p);
 		}
 		catch(Exception e){
-			JOptionPane.showMessageDialog(null, "Introduceti un numar corect");
+			JOptionPane.showMessageDialog(null, "Introduceti un telefon corect");
 		}
-		if(name.equals("")) JOptionPane.showMessageDialog(null, "Introduceti un nume");
+		if(name.equals("")) { JOptionPane.showMessageDialog(null, "Introduceti un nume"); w=false;}
+		if(p.length()<10) { JOptionPane.showMessageDialog(null, "Telefonul contine mai putin de 10 cifre"); w=false; }
+		if(w) { JOptionPane.showMessageDialog(null, "Contact salvat"); clear(); }
+		}
+	public void clear(){
+		tName.setText("");
+		tAddress.setText("");
+		tPhone.setText("");
+		tEmail.setText("");
 	}
 
 }
