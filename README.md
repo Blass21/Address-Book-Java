@@ -2,7 +2,7 @@
 Functional Address Book GUI in Java
 
 Base Tutorial:
-http://www.wideskills.com/java-tutorial/java-swing-address-book
+http://www.wideskills.com/java-tutorial/java-swing-address-book (this uses MySQL)
 
 
 
@@ -13,11 +13,15 @@ http://www.wideskills.com/java-tutorial/java-swing-address-book
   
 #Instructions:
 
-The application comes with an Access Database("contacts.accdb") that has to implicitly be stored on Desktop. (this is to make sure that the data is consistent and the user doesn't accidentaly use other files). An option would be to have the user select the location of the file.
+The application comes with an Access Database("contacts.accdb") that HAS TO BE STORED ON DESKTOP. (The actual database could have been packed within the executable, but I want to provide direct access to its content). 
 
 After introducing the desired data, the user can press the button SAVE to add a new contact to the database.
 The user can insert a name and use the button Search by name. The user will then be presented an option list with all the matching results. After selecting the desired one, he will be able to see the contact details associated with that name.
-After Searching and selecting a contact, the user can edit the details and press UPDATE or simply press DELETE to erase all data.
+After Searching and selecting a contact, the user can edit the details and press UPDATE or simply press DELETE to erase all data. (UPDATE and DELECTE are diasbled until a result is selected using the SEARCH button).
+
+ENJOY!
+
+
 
 
   
