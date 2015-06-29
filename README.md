@@ -1,4 +1,4 @@
-# Java-Swing-Address-Book
+# Address-Book
 Functional Address Book GUI in Java
 
 Base Tutorial:
