@@ -15,7 +15,8 @@ http://www.wideskills.com/java-tutorial/java-swing-address-book (this uses MySQL
   The GUI containts text fields that correpsond to table names (name, address, phone, email), with name being compulsory.
   After introducing the desired data, the user can press the button SAVE to add a new contact to the database.
 The user can insert a name and use the button Search by name. The user will then be presented an option list with all the matching results. After selecting the desired one, he will be able to see the contact details associated with that name.
-After Searching and selecting a contact, the user can edit the details and press UPDATE or simply press DELETE to erase all data. (UPDATE and DELETE are diasbled until a result is selected using the SEARCH button).
+After Searching and selecting a contact, the user can edit the details and press UPDATE or simply press DELETE to erase all data. (UPDATE and DELETE are diasbled until a result is selected using the SEARCH button). 
+  You can type * into the Name field to find all the records.
 
 
 ENJOY!
