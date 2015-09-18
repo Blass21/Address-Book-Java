@@ -1,3 +1,8 @@
+-----------------------
+This has been extended a lot in a private repository, using MySql and allowing user to connect with different accoounts, borrow different files out of it and see a history of borrowing.
+
+------------------------
+
 # Address-Book
 Functional Address Book GUI in Java
 
