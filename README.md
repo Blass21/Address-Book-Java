@@ -1,5 +1,5 @@
 -----------------------
-This has been extended a lot in a private repository, using MySql and allowing user to connect with different accoounts, borrow different files out of it and see a history of borrowing.
+This has been extended a lot in a private repository, using MySql and allowing users to connect with different accounts, borrow different files out of it and see a history of borrowing. (it's now a 'libary manager' style of app)
 
 ------------------------
 
