@@ -27,4 +27,4 @@ After Searching and selecting a contact, the user can edit the details and press
 ENJOY!
 
 
-@CopyRight Ramona Comanescu 2015
+@Copyright Ramona Comanescu 2015
